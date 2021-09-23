@@ -2,6 +2,7 @@ import './App.css';
 import  Navbar  from "./components/Navbar";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Projects from "./components/Projects";
+import About from './components/About';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Projects}/>
         <Route path="/contact"/>
-        <Route path="/about"/>
+        <Route path="/about" component={About}/>
       </Switch>
     </div>
       </Router>
