@@ -1,9 +1,10 @@
 import React from 'react';
 import './Projects.css';
+import Sine from './Sine';
 const Projects = () => {
     return (
-        <div className='shadow'>
-            <div className="red">qaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        <div>
+            <Sine></Sine>
         </div>
     )
 }
