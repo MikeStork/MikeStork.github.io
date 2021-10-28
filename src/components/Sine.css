@@ -1,0 +1,13 @@
+#canvas{
+    display: block;
+    opacity: 0.5;
+    width: 100vw;
+    height: 100vh;
+}
+#Sine{
+    background-color: #000;
+    position: absolute;
+    z-index: -10;
+    width: 100vw;
+    height: 100vh;
+}
