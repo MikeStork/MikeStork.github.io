@@ -1,0 +1,8 @@
+#canvas{
+    display: block;
+    opacity: 0.5;
+}
+.Sine{
+    background-color: #000;
+    z-index: -10;
+}
