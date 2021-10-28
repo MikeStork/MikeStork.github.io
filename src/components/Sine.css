@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 #canvas{
     display: block;
     opacity: 0.5;
@@ -6,7 +9,9 @@
 }
 #Sine{
     background-color: #000;
-    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: -10;
     width: 100vw;
     height: 100vh;

@@ -1,0 +1,13 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+.content {
+  margin-top: 25vh;
+  width: 100vw;
+  background-color: rgb(116, 116, 116);
+  border: 1px solid hsla(0, 0%, 100%, 0.062);
+  border-radius: 3px;
+}
