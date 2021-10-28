@@ -1,9 +1,8 @@
 import React from 'react'
-import Sine from './Sine'
+
 const About = () => {
     return (
         <div className="about">
-            <Sine></Sine>
             <div className="col"></div>
             <div className="col-m">
                 <main>
