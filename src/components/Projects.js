@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div>
             <Sine></Sine>
-            {/* <Content text="jajetz" offset="25vh"></Content> */}
+            {/* <Content text="jajetz" offset="70vh"></Content> */}
         </div>
     )
 }
