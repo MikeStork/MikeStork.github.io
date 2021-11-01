@@ -3,8 +3,15 @@ import "./Sine.css";
 
 const Sine = props => {
   const canvasRef = useRef(null);
-  var freq = 0.02;
   var k = 0;
+  var freq;
+  if (window.innerWidth<500){
+    freq = 0.01;
+  }else if(window.innerWidth<1000){
+    freq = 0.02;
+  }else{
+    freq = 0.03;
+  }
   useEffect(() => {
     const canvas = canvasRef.current;
     canvas.width=window.innerWidth;
@@ -28,6 +35,13 @@ const Sine = props => {
       // window.location.reload(true);
       canvas.width=window.innerWidth;
       canvas.height=window.innerHeight;
+      if (window.innerWidth<500){
+        freq = 0.005;
+      }else if(window.innerWidth<1000){
+        freq = 0.02;
+      }else{
+        freq = 0.04;
+      }
     });
   }, []);
   // window.addEventListener("resize", ()=>{

@@ -1,4 +1,5 @@
 import './App.css';
+import './ResponsiveText.css';
 import  Navbar  from "./components/Navbar";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Projects from "./components/Projects";
