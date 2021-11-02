@@ -1,29 +1,22 @@
 body {
   background-color: azure;
 }
-@media (min-width: 0px) {
-  body {
-    font-size: 0.7rem;
-  }
+body::-webkit-scrollbar {
+  width: 0.3em;
+  scroll-behavior: smooth;
+}
 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  background-color: #2c2c2c;
 }
-@media (min-width: 320px) {
-  body {
-    font-size: 0.80rem;
-  }
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: none;
+  border-radius: 10px;
 }
-@media (min-width: 640px) {
-  body {
-    font-size: 0.85rem;
-  }
-}
-@media (min-width: 960px) {
-  body {
-    font-size: 0.95rem;
-  }
-}
-@media (min-width: 1100px) {
-  body {
-    font-size: 1rem;
-  }
-}
+
+
