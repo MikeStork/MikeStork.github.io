@@ -25,14 +25,10 @@ const Sine = props => {
     }
     animate();
     window.addEventListener("resize", ()=>{
-      // window.location.reload(true);
       canvas.width=window.innerWidth;
       canvas.height=window.innerHeight;
     });
   }, []);
-  // window.addEventListener("resize", ()=>{
-  //   // window.history.go(0);
-  // });
 
   return (
     <div id="Sine">
